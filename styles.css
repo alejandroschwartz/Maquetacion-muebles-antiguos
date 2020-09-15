@@ -12,7 +12,7 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-    background: #e19999;
+    background: #c86b85;
 }
 
 .header__title {
@@ -20,15 +20,22 @@ body {
     padding: 0;
 }
 
+.navegator {
+    background: #e6a4b4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .navegator__uniqueList {
     margin: 0px;
     padding: 0px;
+    width: 80%;
     height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
-    background: #f5a8a8;
 }
 
 .navegator__uniqueList--boton {
@@ -72,8 +79,15 @@ body {
 }
 
 .section__name h2 {
+    width: 100%;
     margin-top: 40px;
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c86b85;
 }
 
 .section__div {
@@ -161,11 +175,19 @@ body {
 .footer {
     margin: 0px;
     /* height: 120px; */
-    background: #e19999;
+    background: #e6a4b4;
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+}
+
+.footer__container {
+    padding: 80px 0px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer p {
@@ -179,7 +201,7 @@ body {
 
 .contact {
     font-size: 24px;
-    background: #f5a8a8;
+    background: #e6a4b4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -212,6 +234,7 @@ body {
     max-width: 1200px;
     display: flex;
     justify-content: center;
+    margin: 60px 0px;
 }
 
 .contact__logo--container {
@@ -236,13 +259,34 @@ body {
 }
 
 .footer__information {
-    background: #e19999;
+    /* background: #c86b85; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .footer__information p {
     margin: 12px;
+    padding-bottom: 50px;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
 }
 
+.design__container {
+    padding: 16px;
+    background: #c86b85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design__container p {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
